@@ -1,0 +1,8 @@
+/* Author */
+Dan Herbert
+San Francisco, CA, USA
+Twitter: @DanHerbert
+https://dan.herbert.io/
+
+/* Site */
+Software: Ubuntu, Ngnix, Git
