@@ -5,4 +5,5 @@ Twitter: @DanHerbert
 https://dan.herbert.io/
 
 /* Site */
-Software: Ubuntu, Ngnix, Git
+Software: Ubuntu Server, Ngnix, Git
+Code: https://github.com/DanHerbert/danherbert-landing
