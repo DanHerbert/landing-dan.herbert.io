@@ -4,7 +4,9 @@ html(lang="en")
     // Hey, you're looking at my source code. That's awesome!
     // This page was created from scratch using a few different tools.
     // Check out the original source here:
-    // https://github.com/DanHerbert/danherbert-landing
+    |
+    |
+    <!-- https://github.com/DanHerbert/danherbert-landing -->
     title dan.herbert.io
     meta(name="viewport" content="width=device-width")
     meta(name="theme-color" content="#81c784")
@@ -15,23 +17,21 @@ html(lang="en")
          type="image/x-icon" 
          size="16x16 24x24 32x32 48x48 64x64" 
          href="favicon.ico")
-    link(type="text/plain"
-         rel="author"
+    link(rel="author"
+         type="text/plain"
          href="https://dan.herbert.io/humans.txt")
+    link(rel="me" href="https://mastodon.social/@danherbert")
     style
       include /main.css
   body
     main
       p.intro
         | I'm Dan Herbert, a software developer in the SF Bay Area
-        strong  currently looking for work
-        |  after being one of the
-        a(href="https://blog.google/inside-google/message-ceo/january-update/")
-          |  12,000 Google employees recently laid off
+        strong  currently open to work
         | .
       p You can find me here:
       ul
-        li: a(class="pdf" href="https://hrbrt.co/nLE4" target="_blank")
+        li: a.pdf(type="application/pdf" href="https://hrbrt.co/nLE4" target="_blank")
           | PDF Resume
         li: a(href="https://hrbrt.co/R23H") LinkedIn
         li: a(href="https://hrbrt.co/dmYz") StackOverflow
@@ -46,6 +46,5 @@ html(lang="en")
         li: a(href="https://hrbrt.co/7RBc") Keybase
         li: a(href="https://hrbrt.co/aAJE") Venmo
         li: a(href="https://hrbrt.co/rNqx") Paypal
-        li: a(href="https://hrbrt.co/7rdi") Google Pay
         li: a(href="https://hrbrt.co/UmFQ") CashApp
         li: a(href="https://hrbrt.co/m2fZ") Snapchat
