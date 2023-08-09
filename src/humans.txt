@@ -1,7 +1,7 @@
 /* Author */
 Dan Herbert
 San Francisco, CA, USA
-Twitter: @DanHerbert
+Mastodon: @DanHerbert@mastodon.social
 https://dan.herbert.io/
 
 /* Site */

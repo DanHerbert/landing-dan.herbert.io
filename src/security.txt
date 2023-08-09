@@ -1,0 +1,3 @@
+Contact: https://dan.herbert.io/
+Contact: mailto:web-security-dan@hrbrt.co
+Preferred-Languages: en
