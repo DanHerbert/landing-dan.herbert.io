@@ -1,7 +1,6 @@
 {
   "dependencies": {
-    "pug": "^3.0.2",
-    "pug-cli": "^1.0.0-alpha6",
+    "pug-cli": "@anduh/pug-cli",
     "stylus": "^0.59.0"
   }
 }
