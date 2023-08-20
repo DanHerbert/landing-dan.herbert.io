@@ -1,6 +1,21 @@
 {
+  "name": "dan_herbert_io-landing",
+  "version": "0.0.1",
+  "type": "module",
+  "author": "Dan Herbert <web-dan@hrbrt.co> (https://dan.herbert.io/)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DanHerbert/dan.herbert.io-landing.git"
+  },
   "dependencies": {
     "pug-cli": "@anduh/pug-cli",
-    "stylus": "^0.59.0"
+    "pug": "^3.0",
+    "app-root-path": "^3.1",
+    "stylus": "^0.59.0",
+    "config": "^3.3"
+  },
+  "scripts": {
+    "build": "tools/run-build.js",
+    "publish": "tools/publish.js"
   }
 }
