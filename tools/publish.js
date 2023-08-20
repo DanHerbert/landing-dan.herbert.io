@@ -84,13 +84,3 @@ console.log(`Cleaned up ${filesCleanedUp} files.`);
 
 await fs.writeFile(lastPubPath, currentPub);
 console.log(`Saved the current revision to ${lastPubPath}`);
-
-// Check latest-publication.txt for commit hash
-// List files in public/ (recursively)
-// Delete entire public/ folder
-// Do the build.
-// Create "obsolete files" list from original list compared to new public/ dir
-// Copy contents of public/ to the deployment folder
-// Create a versioned backup folder based on latest publication.
-// Use obsolete files list to move those files into backup folder
-// Store the latest hash into latest-publication.txt
