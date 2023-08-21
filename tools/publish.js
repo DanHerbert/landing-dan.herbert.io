@@ -37,7 +37,7 @@ async function getPublicFiles(root) {
 }
 
 const lastPubPath = `${appRoot}/latest-publication.txt`;
-const previousPub = existsSync(fullPath) ? await fs.readFile(lastPubPath, { encoding: "utf8" }) : '';
+const previousPub = existsSync(lastPubPath) ? await fs.readFile(lastPubPath, { encoding: "utf8" }) : '';
 const currentPub = execSync("git rev-parse HEAD").toString().trim();
 if (previousPub === currentPub) {
   console.info("Previous version matches current version. Doing nothing.");
