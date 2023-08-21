@@ -65,6 +65,8 @@ console.log("Got list of files to cleanup.");
 
 const deployDir = config.get("deployDir");
 await fs.cp(PUB_ROOT, deployDir, { recursive: true });
+console.log(`Deployed to ${deployDir}`);
+
 const deployedFiles = await getPublicFiles(deployDir);
 let filesCleanedUp = 0;
 for (let f of deployedFiles) {
