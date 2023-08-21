@@ -8,7 +8,6 @@ import { buildSite } from "./build.js";
 
 const SHORT_HASH_LENGTH = 7;
 const PUB_ROOT = `${appRoot}/public`;
-const SRC_ROOT = `${appRoot}/src`;
 
 /**
  * @param {Dirent} a

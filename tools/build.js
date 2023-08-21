@@ -4,7 +4,7 @@ import appRoot from "app-root-path";
 import pug from "pug";
 import stylus from "stylus";
 import { promisify } from "node:util";
-import { constants as fsConsts, promises as fs } from "node:fs";
+import { promises as fs } from "node:fs";
 
 const PUB_ROOT = `${appRoot}/public`;
 const SRC_ROOT = `${appRoot}/src`;
