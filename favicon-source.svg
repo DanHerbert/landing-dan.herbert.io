@@ -2,13 +2,13 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="173.66187mm"
-   height="173.66187mm"
-   viewBox="0 0 173.66187 173.66187"
+   width="680"
+   height="680"
+   viewBox="0 0 179.91667 179.91667"
    version="1.1"
    id="svg5"
-   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
-   sodipodi:docname="site-logo.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="favicon-source.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -28,19 +28,21 @@
      showgrid="false"
      inkscape:zoom="0.5"
      inkscape:cx="260"
-     inkscape:cy="300"
-     inkscape:window-width="1312"
-     inkscape:window-height="778"
+     inkscape:cy="299"
+     inkscape:window-width="1503"
+     inkscape:window-height="933"
      inkscape:window-x="0"
-     inkscape:window-y="25"
-     inkscape:window-maximized="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
      showborder="true"
-     borderlayer="false" />
+     borderlayer="false"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
   <defs
      id="defs2" />
   <g
@@ -51,48 +53,30 @@
     <circle
        style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path918"
-       cx="105.23201"
-       cy="162.38849"
+       cx="108.35941"
+       cy="165.51588"
        r="83.330933" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="-29.379498"
-       y="107.90288"
-       id="text3956"><tspan
-         sodipodi:role="line"
-         id="tspan3954"
-         style="stroke-width:0.264583"
-         x="-29.379498"
-         y="107.90288" /></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:124.22px;line-height:1.25;font-family:Palanquin;-inkscape-font-specification:'Palanquin, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.33096"
-       x="34.987507"
-       y="200.67635"
-       id="text1516"><tspan
-         sodipodi:role="line"
-         id="tspan1514"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:124.22px;font-family:Palanquin;-inkscape-font-specification:'Palanquin, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.33096"
-         x="34.987507"
-         y="200.67635" /></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:141.111px;line-height:1.25;font-family:Palanquin;-inkscape-font-specification:'Palanquin, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="33.453159"
-       y="196.97212"
-       id="text1753"><tspan
-         sodipodi:role="line"
-         id="tspan1751"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:123.472px;font-family:Palanquin;-inkscape-font-specification:'Palanquin, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-         x="33.453159"
-         y="196.97212">dh</tspan></text>
+    <path
+       id="text1753"
+       style="stroke-width:0.264583"
+       d="m 71.276213,148.36481 q -9.2604,0 -13.088032,6.54402 -3.70416,6.54402 -3.70416,15.06358 0,9.01346 3.580688,15.31053 3.580688,6.29707 13.211504,6.29707 3.333744,0 6.914432,-1.48166 3.70416,-1.60514 7.037904,-4.32152 V 154.168 q -3.333744,-2.71639 -7.037904,-4.19805 -3.580688,-1.60514 -6.914432,-1.60514 z m 25.929115,-35.31299 v 87.04776 h -6.790955 l -3.210272,-5.55624 q -3.827632,3.33375 -9.013456,5.3093 -5.062352,1.85208 -9.383872,1.85208 -13.088032,0 -19.75552,-9.01346 -6.667488,-9.01345 -6.667488,-22.59537 0,-13.7054 6.79096,-22.71885 6.914432,-9.13693 20.002464,-9.13693 3.70416,0 8.02568,1.60514 4.32152,1.48166 8.02568,3.9511 v -29.50981 z m 30.621012,33.70786 q 3.82763,-3.70416 9.2604,-6.05013 5.55624,-2.46944 10.37164,-2.46944 10.98901,0 15.92789,6.42054 5.06235,6.29708 5.06235,15.92789 v 39.51104 h -11.85331 v -38.39979 q 0,-6.05013 -2.96333,-9.63082 -2.83985,-3.58068 -8.76651,-3.70416 -3.70416,0 -8.64304,2.34597 -4.81541,2.34597 -8.39609,6.1736 v 43.2152 h -11.85332 v -85.81304 l 11.85332,-1.35819 z"
+       aria-label="dh" />
   </g>
   <metadata
      id="metadata5233">
     <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-nc-nd/4.0/" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Daniel P. Herbert</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
       <cc:License
-         rdf:about="http://creativecommons.org/licenses/by-nd/4.0/">
+         rdf:about="http://creativecommons.org/licenses/by-nc-nd/4.0/">
         <cc:permits
            rdf:resource="http://creativecommons.org/ns#Reproduction" />
         <cc:permits
@@ -101,17 +85,9 @@
            rdf:resource="http://creativecommons.org/ns#Notice" />
         <cc:requires
            rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:prohibits
+           rdf:resource="http://creativecommons.org/ns#CommercialUse" />
       </cc:License>
-      <cc:Work
-         rdf:about="">
-        <cc:license
-           rdf:resource="http://creativecommons.org/licenses/by-nd/4.0/" />
-        <dc:creator>
-          <cc:Agent>
-            <dc:title>Daniel P. Herbert</dc:title>
-          </cc:Agent>
-        </dc:creator>
-      </cc:Work>
     </rdf:RDF>
   </metadata>
 </svg>

@@ -7,7 +7,7 @@ indent_style = space
 insert_final_newline = true
 trim_trailing_whitespace = true
 
-[*.{js,json,yml,styl,pug}]
+[*.{js,json,yml,styl,pug,svg}]
 indent_size = 2
 
 [{*.py,*.py3,*.py2,*.sh,*.zsh,.zshrc,.bashrc}]
