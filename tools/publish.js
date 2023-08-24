@@ -3,11 +3,12 @@
 import appRoot from "app-root-path";
 import config from "config";
 import { execSync } from "node:child_process";
-import { promises as fs, Dirent, existsSync } from "node:fs";
+import { promises as fs, Dirent, existsSync, rmSync } from "node:fs";
 import { buildSite } from "./build.js";
 
 const SHORT_HASH_LENGTH = 7;
 const PUB_ROOT = `${appRoot}/public`;
+const LOCK_PATH = `${appRoot}/publishing.lock`;
 
 /**
  * @param {Dirent} a
@@ -38,8 +39,8 @@ async function getPublicFiles(root) {
 
 const lastPubPath = `${appRoot}/latest-publication.txt`;
 const previousPub = existsSync(lastPubPath)
-  ? await fs.readFile(lastPubPath, { encoding: "utf8" })
-  : "";
+  ? await fs.readFile(lastPubPath, { encoding: 'utf8' })
+  : '';
 const currentPub = execSync("git rev-parse HEAD").toString().trim();
 if (previousPub === currentPub) {
   console.info("Previous version matches current version. Doing nothing.");
@@ -52,6 +53,20 @@ if (previousPub === currentPub) {
       `and continuing to publish...`
   );
 }
+
+const startAttempts = 0;
+while (existsSync(LOCK_PATH)) {
+  if (startAttempts > config.get("startAttemptsMax")) {
+    console.error("Timeout while waiting for publish lock.");
+    process.exit(1);
+  }
+  startAttempts++;
+  await new Promise((resolve) =>
+    setTimeout(resolve, config.get("startAttemptsDelay"))
+  );
+}
+await fs.writeFile(LOCK_PATH, new Date().toISOString());
+process.on("exit", () => rmSync(LOCK_PATH));
 
 const previousPubFiles = await getPublicFiles(PUB_ROOT);
 console.log("Storing old files list for later cleanup.");

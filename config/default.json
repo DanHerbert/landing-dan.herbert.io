@@ -1,3 +1,5 @@
 {
-  "deployDir": "./deploy"
+  "deployDir": "./deploy",
+  "startAttemptsMax": 10,
+  "startAttemptsDelay": 500
 }

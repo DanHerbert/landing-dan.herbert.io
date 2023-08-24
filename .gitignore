@@ -1,5 +1,6 @@
 .DS_Store
 /latest-publication.txt
+/publishing.lock
 /config/local.json
 /config/local-*.json
 /node_modules/
