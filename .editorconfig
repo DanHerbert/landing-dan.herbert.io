@@ -12,6 +12,3 @@ indent_size = 2
 
 [{*.py,*.py3,*.py2,*.sh,*.zsh,.zshrc,.bashrc}]
 indent_size = 4
-
-[*.go]
-indent_style = tab
