@@ -39,9 +39,12 @@ async function getPublicFiles(root) {
 
 const lastPubPath = `${appRoot}/latest-publication.txt`;
 const previousPub = existsSync(lastPubPath)
-  ? await fs.readFile(lastPubPath, { encoding: 'utf8' })
-  : '';
-const currentPub = execSync("git rev-parse HEAD").toString().trim();
+  ? await fs.readFile(lastPubPath, { encoding: "utf8" })
+  : "";
+const gitUser = execSync("stat -c '%U' ./").toString().trim();
+const currentPub = execSync(`sudo -u "${gitUser}" git rev-parse HEAD`)
+  .toString()
+  .trim();
 if (previousPub === currentPub) {
   console.info("Previous version matches current version. Doing nothing.");
   process.exit(0);
@@ -103,7 +106,9 @@ console.log(`Cleaned up ${filesCleanedUp} files.`);
 await fs.writeFile(lastPubPath, currentPub);
 console.log(`Saved the current revision to ${lastPubPath}`);
 
-const stashListOutput = execSync("git stash list").toString().trim();
+const stashListOutput = execSync(`sudo -u "${gitUser}" git stash list`)
+  .toString()
+  .trim();
 if (stashListOutput) {
   console.info(`stash list output:\n${stashListOutput}`);
   console.warn("Repository has stashed changes.");
