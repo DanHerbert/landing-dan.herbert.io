@@ -14,8 +14,14 @@ export async function buildSite() {
   console.info("Ensured public/ dir exists.");
 
   await fs.mkdir(`${PUB_ROOT}/images/favicons`, { recursive: true });
-  await fs.cp(`${SRC_ROOT}/images`, `${PUB_ROOT}/images`, { recursive: true, force: true });
-  await fs.copyFile(`${SRC_ROOT}/images/favicons/favicon.ico`, `${PUB_ROOT}/favicon.ico`);
+  await fs.cp(`${SRC_ROOT}/images`, `${PUB_ROOT}/images`, {
+    recursive: true,
+    force: true,
+  });
+  await fs.copyFile(
+    `${SRC_ROOT}/images/favicons/favicon.ico`,
+    `${PUB_ROOT}/favicon.ico`
+  );
   console.info("Copied src/images/* to public/images");
 
   const files = await fs.readdir(`${SRC_ROOT}`);
