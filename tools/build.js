@@ -26,7 +26,7 @@ export async function buildSite() {
 
   const files = await fs.readdir(`${SRC_ROOT}`);
   for (let f of files) {
-    if (f.endsWith(".txt")) {
+    if (f.endsWith(".txt") || f.endsWith(".asc")) {
       await fs.copyFile(`${SRC_ROOT}/${f}`, `${PUB_ROOT}/${f}`);
       console.info(`Copied ${f} to public/`);
     }
