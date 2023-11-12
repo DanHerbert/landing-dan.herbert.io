@@ -11,7 +11,7 @@
     "pug-cli": "@anduh/pug-cli",
     "pug": "^3.0",
     "app-root-path": "^3.1",
-    "stylus": "^0.59",
+    "stylus": "^0.61",
     "config": "^3.3"
   },
   "scripts": {
