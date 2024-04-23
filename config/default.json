@@ -1,5 +1,14 @@
 {
-  "deployDir": "./deploy",
+  "srcDir": "src",
+  "buildDir": "output/build",
+  "snapshotsDir": "output/snapshots",
+  "deployDir": "output/deploy",
+  "outputDir": "output",
   "startAttemptsMax": 10,
-  "startAttemptsDelay": 500
+  "startAttemptsDelay": 500,
+  "stylus": {
+    "compress": true,
+    "sourcemap": false,
+    "inline": true
+  }
 }

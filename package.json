@@ -8,14 +8,19 @@
     "url": "https://github.com/DanHerbert/dan.herbert.io-landing.git"
   },
   "dependencies": {
-    "pug-cli": "@anduh/pug-cli",
-    "pug": "^3.0",
     "app-root-path": "^3.1",
+    "config": "^3.3",
+    "pug": "^3.0",
+    "pug-cli": "@anduh/pug-cli",
     "stylus": "^0.61",
-    "config": "^3.3"
+    "typescript": "^5.4",
+    "chokidar": "^3.6",
+    "debounce": "^2.0",
+    "http-server": "^14.1"
   },
   "scripts": {
-    "build": "tools/run-build.js",
-    "publish": "tools/publish.js"
+    "build": "micro-deploys/tools/build.js",
+    "watch": "micro-deploys/tools/watch.js",
+    "deploy": "micro-deploys/tools/deploy.js"
   }
 }
