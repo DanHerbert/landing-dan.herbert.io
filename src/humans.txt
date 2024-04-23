@@ -1,9 +1,12 @@
 /* Author */
 Dan Herbert
-San Francisco, CA, USA
+Philadelphia, PA, USA
 Mastodon: @DanHerbert@mastodon.social
 https://dan.herbert.io/
 
 /* Site */
 Software: Ubuntu Server, Ngnix, Git
 Code: https://github.com/DanHerbert/danherbert-landing
+Plus a beloved collection of personally-written shell scripts & python scripts
+that keep things up-to-date when the repo above is modified and allow my server
+to run smoothly.
