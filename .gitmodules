@@ -1,0 +1,3 @@
+[submodule "micro-deploys"]
+	path = micro-deploys
+	url = git@github.com:DanHerbert/micro-deploys.git
