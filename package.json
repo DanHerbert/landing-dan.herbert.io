@@ -12,7 +12,7 @@
     "config": "^3.3",
     "pug": "^3.0",
     "pug-cli": "@anduh/pug-cli",
-    "stylus": "^0.61",
+    "stylus": "^0.63",
     "typescript": "^5.4",
     "chokidar": "^3.6",
     "debounce": "^2.0",
