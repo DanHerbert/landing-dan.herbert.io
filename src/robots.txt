@@ -1,0 +1,5 @@
+Sitemap: https://dan.herbert.io/sitemap.txt
+
+
+User-agent: *
+Disallow: /passphrase/
