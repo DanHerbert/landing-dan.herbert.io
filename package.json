@@ -9,14 +9,14 @@
   },
   "dependencies": {
     "app-root-path": "^3.1",
-    "config": "^3.3",
-    "pug": "^3.0",
-    "pug-cli": "@anduh/pug-cli",
-    "stylus": "^0.63",
-    "typescript": "^5.4",
     "chokidar": "^3.6",
+    "config": "^3.3",
     "debounce": "^2.0",
-    "http-server": "^14.1"
+    "http-server": "^14.1",
+    "pug-cli": "@anduh/pug-cli",
+    "pug": "^3.0",
+    "stylus": "^0.63",
+    "typescript": "^5.4"
   },
   "scripts": {
     "build": "micro-deploys/tools/build.js",
