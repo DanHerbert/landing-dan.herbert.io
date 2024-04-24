@@ -11,12 +11,17 @@ html(lang="en")
     meta(name="viewport" content="width=device-width")
     meta(name="theme-color" content="#81c784")
     link(rel="icon" type="image/svg" size="any" href="/images/favicons/favicon.svg")
-    link(rel="icon" type="image/png" size="512x512" href="/images/favicons/favicon-512.png")
-    link(rel="icon" type="image/png" size="192x192" href="/images/favicons/favicon-192.png")
+    - const faviconSizes = [1024,512,256,192,180,167,152,128,120,114,87,80,64,32,16]
+    each size in faviconSizes
+      link(rel="icon" type="image/png" size=`${size}x${size}` href=`/images/favicons/favicon-${size}.png`)
     link(rel="icon"
          type="image/x-icon"
-         size="16x16 24x24 32x32 48x48 64x64"
+         size="16x16 32x32 48x48 64x64 256x256"
          href="/images/favicons/favicon.ico")
+
+    each size in faviconSizes
+      link(rel="apple-touch-icon" type="image/png" sizes=`${size}x${size}` href=`/images/favicons/favicon-${size}.png`)
+
     link(rel="author"
          type="text/plain"
          href="https://dan.herbert.io/humans.txt")
