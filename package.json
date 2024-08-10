@@ -13,7 +13,7 @@
     "config": "^3.3",
     "debounce": "^2.0",
     "http-server": "^14.1",
-    "pug-cli": "@anduh/pug-cli",
+    "pug-cli": "@tokilabs/pug-cli",
     "pug": "^3.0",
     "stylus": "^0.63",
     "typescript": "^5.4"
