@@ -2,4 +2,6 @@ Sitemap: https://dan.herbert.io/sitemap.txt
 
 
 User-agent: *
+Disallow: *.json
 Disallow: /passphrase/
+Disallow: /passphrase.html
