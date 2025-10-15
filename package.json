@@ -15,8 +15,8 @@
     "http-server": "^14.1",
     "pug-cli": "@tokilabs/pug-cli",
     "pug": "^3.0",
-    "stylus": "^0.63",
-    "typescript": "^5.4"
+    "stylus": "^0.64",
+    "typescript": "^5.9"
   },
   "scripts": {
     "build": "micro-deploys/tools/build.js",
