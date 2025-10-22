@@ -5,8 +5,11 @@ Mastodon: @DanHerbert@mastodon.social
 https://dan.herbert.io/
 
 /* Site */
-Software: Ubuntu Server, Ngnix, Git
-Code: https://github.com/DanHerbert/danherbert-landing
-Plus a beloved collection of personally-written shell scripts & python scripts
-that keep things up-to-date when the repo above is modified and allow my server
-to run smoothly.
+Software: Debian, Nginx, Git, Node.js, Python
+Code: https://github.com/DanHerbert/landing-dan.herbert.io
+Plus a beloved collection of personally-written Node.js, Python, and shell
+scripts that keep things up-to-date when the repo above is modified and allow my
+server to run smoothly.
+
+https://github.com/DanHerbert/micro-deploys
+https://github.com/DanHerbert/gh-deploys
