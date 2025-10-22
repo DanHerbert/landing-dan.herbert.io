@@ -1,0 +1,82 @@
+==================================================================
+https://keybase.io/danherbert
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://dan.herbert.io
+  * I am danherbert (https://keybase.io/danherbert) on keybase.
+  * I have a public key with fingerprint B692 4325 34E2 D4D6 9AF8  8FC7 A9FD 6A58 FE51 843E
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.3"
+        },
+        "key": {
+            "fingerprint": "b692432534e2d4d69af88fc7a9fd6a58fe51843e",
+            "host": "keybase.io",
+            "key_id": "A9FD6A58FE51843E",
+            "uid": "0a0f044da17cb0c1a3833e20d56c4e00",
+            "username": "danherbert"
+        },
+        "merkle_root": {
+            "ctime": 1421617486,
+            "hash": "d14052131c10c0f1936d424132eb225250add11ff1ed86a0d8fd20c70a0710958e8d6f9cc057d17a17a83d283b3f7e5d491d6fa9180e5b244f2beb303bcfaf25",
+            "seqno": 134484
+        },
+        "service": {
+            "hostname": "dan.herbert.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1421617600,
+    "expire_in": 157680000,
+    "prev": "63189c2ccedb5020158f44d79bd8778e5812961e5f6d1d1bf16abbf835810f47",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owFVUntQFVUc5hGFD5RHo02jAUs6YgTn7PMsPgDhgjOZCAlSDuHunrPcBbz3svde
+lIQgEZ8jhmjoMKnNMJGAvFJGTRyZtCYwdTQHBVI0J0FwKDOdoXDaJRrzv3N+3/f7
+zvf9fudTP28PL8+j4zkZz1K2LPXsHpI9Vp8JP7eJku24kIreRCl5GrG5zJNNWk+o
+aCqXFMqSk0Rq9hCbHZPIHGfIJCeCKiC6U7PbDBaIFCIZqjjCpJvNqmbLJrpD10wt
+SuZFmmVojmEJjVnMi5KKkKoIkqhiXuKQSjiIWIYYkla70/XCq9SEZpaGjWqcmJjA
+x3Eo0TLBtxiYewIAElABy2IJCooMFCgxiGEIDTDHKywBwCQ6iT4ZCUs2K9FlortM
+x+uJnptHsnS7fSK24tJMEmRpyEOBRbzhSXJazTbIAo6GDFQgUIAKRYbHLM1ChiYy
+TXM0BySMIVRVSDDiJYCRimmgCIY5AQKRQwRhXhUVBXAChoLhVUIMphEjM6pAOMyK
+0MAlESJAOJlmWZWWicwARlZUSaU5I4ST5NvshjmGZRFbbN71Ak0hpm9zcM/zRU4G
+/HeADt3usiv2PAOzulwOZ7SZ21XoMMht1AYiZ03qZMmaDRub+/9qoUF9cSY8ABEU
+2ejQdJKlmQxO4BEAZtWhkwLjEZ6BSFRoRSFY5gANoLFiYzuCKGMkCIhwCNIiDwmn
+8hhiKKuQl2RZRYwBAJUVnicVDZ9StiHp1LJtksutE6p4h9eclzw8vTxe9vEy/67H
+1Cn+/33omg5/j8rUnysWFgSu6xJ8zgV7l/5gCavseWvg+M66LY0PfMreCd3nO8L4
+9sCN7oDd06z6nKNf+M2f39o/mBrf6r7eV9KX0U+3XAp7OH/727O8cvbve22s4eHs
+1Ep9xYmajs6qWZkfxP/V3rOzzDHmskRbnpQu/vps+fTuiKKiyMc3cu9VB8xsXPDx
+j0kh+bEfXjp0cWTvfrdDCboSW0+tWHJqV/TV9ODqd+G3Ofdv2y9WCPPSfEeZ0xv7
+hzPWJCfHhFTW7R0gr992C9fGb46y84aiBtWP4g7W5DRThTMvp7Dhd5tuvXrfb7cm
+d9aU5y8e3LBk7IK/+/ScBNTVMpDy3vn3r0YVxe3Y3JSEggeabrK12+qCSi4t7N20
+OxcGzUhJrEtPLLtwZ5ue3PZleGhqRO29I1Uzju1a/gh79f79xzOfP2fOXbUoNfDz
+W/3NScnfpOwZ3BOYMOXAm2eWhd7cevbXbO1ylXvejMzrLb/D5dVpaSAg/XTjg196
+gw7EHI5d+VO9t2INfVq7sri9Yxh9RU1PHmmedtL2dI3SemTVjTBL6RX2zsHvu9a6
+Dy2ta0tiS6uzP6sbbzjFkcDRtT0td8s77ne+8bh1naXEWr91qlC5+fBvHU0Ji9IK
+dqKGYfmT7l0JsXNDjp1sP/hKX/OJpCG16viTkKjMZbgLV3TPXvBdfHvvIrDa3+Xz
+6Nr56pj6xvDCfwA=
+=+1Gb
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/danherbert
+
+==================================================================
