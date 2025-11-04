@@ -1,3 +1,4 @@
-Contact: https://dan.herbert.io/
+# If you would like to report a security issue,
+# you may report it via the email below.
 Contact: mailto:web-security-dan@hrbrt.co
 Preferred-Languages: en
